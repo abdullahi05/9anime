@@ -4,10 +4,36 @@
     <meta charset="utf-8">
     <title>luvnime</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <script src="js/scripts.js"></script>
 
+    </script>
   </head>
   <body>
-    <h1>LUVNIME</h1>
+    <div class="container">
+      <!--header-->
+      <div class="header">
+      <img  src="IMAGES/logo.png" alt="logo"><a href="https://www1.9anime.to/"></a>
+    </div>
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">open</span>
+    </div>
   </body>
 </html>
